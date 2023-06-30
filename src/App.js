@@ -46,14 +46,14 @@ function App() {
           </p>
 
           <p>
-            <a href="http://www.twitter.com/vlnce">
-            <img src={twitter} alt="twitter icon"/>
+            <a href="http://www.twitch.tv/vinceryan">
+            <img src={twitch} alt="twitch icon"/>
             </a>
           </p>
 
           <p>
-            <a href="http://www.twitch.tv/vinceryan">
-            <img src={twitch} alt="twitch icon"/>
+            <a href="http://www.twitter.com/vlnce">
+            <img src={twitter} alt="twitter icon"/>
             </a>
           </p>
         </div>
