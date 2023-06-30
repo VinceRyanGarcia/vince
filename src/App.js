@@ -1,5 +1,9 @@
 import Bulbasaur from './Bulbasaur.webp';
 import './App.css';
+import facebook from './facebook.png'
+import instagram from './instagram.png'
+import linkedin from './linkedin.png'
+import twitter from './twitter.png'
 
 function App() {
   return (
@@ -8,16 +12,43 @@ function App() {
         <div>hi, i'm vince.</div>
         <div>✌️</div>
       </div>
+
+      
     
       <header className="Bulbasaur">
+     
         <img src={Bulbasaur} className="App-logo" alt="logo"/>
-        <h1>Bulbasaur #0001</h1>
-        <h2>There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.</h2>
+        <p>There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.</p>
       </header>
 
-
       <div className="Links">
-        <p>a website made by <a href="http://www.linkedin.com/in/vlnce">vince ryan garcia</a></p>
+        {/* <p><img src={facebook} alt="facebook icon"/></p>
+        <p><img src={twitter} alt="twitter icon"/></p> */}
+        <div className="Icons">
+          <p>
+            <a href="http://www.facebook.com/lAMVlNCE">
+            <img src={facebook} alt="facebook icon"/>
+            </a>
+          </p>
+
+          <p>
+            <a href="http://www.instagram.com/vlnce">
+            <img src={instagram} alt="instagram icon"/>
+            </a>
+          </p>
+
+          <p>
+            <a href="http://www.linkedin.com/in/vlnce">
+            <img src={linkedin} alt="linkedin icon"/>
+            </a>
+          </p>
+
+          <p>
+            <a href="http://www.twitter.com/vlnce">
+            <img src={twitter} alt="twitter icon"/>
+            </a>
+          </p>
+        </div>
       </div>
     </div>
   );
