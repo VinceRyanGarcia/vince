@@ -13,8 +13,6 @@ function App() {
         <img src={Bulbasaur} className="App-logo" alt="logo"/>
         <h1>Bulbasaur #0001</h1>
         <h2>There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.</h2>
-        <p>category: seed | abilities: overgrow | height: 2' 04" | weight: 15.2 lbs</p>
-        <p>type: grass, poison</p>
       </header>
 
 
