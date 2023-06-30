@@ -10,8 +10,7 @@ function App() {
   return (
     <div className="App">
       <div className="Header">
-        <div></div>
-        <div>✌️</div>
+      <marquee behavior="alternate">you should hire vince. you should hire vince. you shuold hire vince. you should hire vince.</marquee>
       </div>
 
       <header className="Bulbasaur">
