@@ -10,13 +10,17 @@ function App() {
   return (
     <div className="App">
       <div className="Header">
-      <marquee behavior="alternate">you should hire vince. you should hire vince. you shuold hire vince. you should hire vince.</marquee>
+      <div>yo! i'm vince.</div>
+      <div>✌️</div>
       </div>
+
+  
 
       <header className="Bulbasaur">
      
         <img src={Bulbasaur} className="App-logo" alt="logo"/>
-        <p>There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.</p>
+
+        <div>There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.</div>
       </header>
 
       <div className="Links">
