@@ -1,20 +1,19 @@
-import Bulbasaur from './Bulbasaur.webp';
 import './App.css';
+import Bulbasaur from './Bulbasaur.webp';
 import facebook from './facebook.png'
 import instagram from './instagram.png'
 import linkedin from './linkedin.png'
 import twitter from './twitter.png'
+import twitch from './twitch.png'
 
 function App() {
   return (
     <div className="App">
       <div className="Header">
-        <div>hi, i'm vince.</div>
+        <div></div>
         <div>✌️</div>
       </div>
 
-      
-    
       <header className="Bulbasaur">
      
         <img src={Bulbasaur} className="App-logo" alt="logo"/>
@@ -46,6 +45,12 @@ function App() {
           <p>
             <a href="http://www.twitter.com/vlnce">
             <img src={twitter} alt="twitter icon"/>
+            </a>
+          </p>
+
+          <p>
+            <a href="http://www.twitch.tv/vinceryan">
+            <img src={twitch} alt="twitch icon"/>
             </a>
           </p>
         </div>
