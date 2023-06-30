@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import Bulbasaur from './Bulbasaur.webp';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <div className="Header">
+        <div>hi, i'm vince.</div>
+        <div>✌️</div>
+      </div>
+    
+      <header className="Bulbasaur">
+        <img src={Bulbasaur} className="App-logo" alt="logo"/>
+        <h1>Bulbasaur #0001</h1>
+        <h2>There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.</h2>
+        <p>category: seed | abilities: overgrow | height: 2' 04" | weight: 15.2 lbs</p>
+        <p>type: grass, poison</p>
       </header>
+
+
+      <div className="Links">
+        <p>a website made by <a href="http://www.linkedin.com/in/vlnce">vince ryan garcia</a></p>
+      </div>
     </div>
   );
 }

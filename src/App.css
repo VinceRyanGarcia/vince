@@ -1,5 +1,10 @@
 .App {
+  display:flex;
+  justify-content:space-between;
+  flex-direction:column;
   text-align: center;
+  background-color: #384b72;
+  height:100vh;
 }
 
 .App-logo {
@@ -13,15 +18,13 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Bulbasaur {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color:white;
+  margin:6vh;
 }
 
 .App-link {
@@ -33,6 +36,21 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(3200deg);
   }
+}
+
+.Header {
+  display:flex;
+  justify-content:space-between;
+  background-color:#354157;
+  color:white;
+}
+a{
+  color:white;
+}
+
+.Links {
+  background-color:#354157;
+  color:white;
 }
