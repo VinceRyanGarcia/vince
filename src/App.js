@@ -20,7 +20,7 @@ function App() {
      
         <img src={Bulbasaur} className="App-logo" alt="logo"/>
 
-        <div>There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.</div>
+        <div>A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.</div>
       </header>
 
       <div className="Links">
